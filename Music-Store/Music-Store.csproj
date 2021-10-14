@@ -122,6 +122,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\MenuItem.cs" />
+    <Compile Include="Model\Sound.cs" />
+    <Compile Include="Model\SoundManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +133,41 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Audio\Kpop\IU _ Celebrity.mp3" />
+    <Content Include="Assets\Audio\Kpop\IU_ eight ft SUGA%28BTS%29.mp3" />
+    <Content Include="Assets\Audio\Kpop\Future_Red Velvet.mp3" />
+    <Content Include="Assets\Audio\Kpop\My Love_DAVICHI.mp3" />
+    <Content Include="Assets\Audio\US_UK\Ariana Grande, Justin Bieber - Stuck with U.mp3" />
+    <Content Include="Assets\Audio\US_UK\Avril Lavigne - Head Above Water.mp3" />
+    <Content Include="Assets\Audio\US_UK\Charlie Puth - Cheating on You.mp3" />
+    <Content Include="Assets\Audio\US_UK\Justin Bieber - Ghost.mp3" />
+    <Content Include="Assets\Audio\US_UK\MADE IN THE USA - DEMI LOVATO.mp3" />
+    <Content Include="Assets\Audio\US_UK\The Kid LAROI, Justin Bieber - STAY.mp3" />
+    <Content Include="Assets\Audio\Vpop\Anh Là Ai - Phương Ly.mp3" />
+    <Content Include="Assets\Audio\Vpop\KHÔNG SAO MÀ EM ĐÂY RỒI - SUNI HẠ LINH ft Lou Hoàng.mp3" />
+    <Content Include="Assets\Audio\Vpop\Như Vậy Mãi Thôi - Noo Phước Thịnh.mp3" />
+    <Content Include="Assets\Audio\Vpop\Những Kẻ Mộng Mơ.mp3" />
+    <Content Include="Assets\Audio\Vpop\SƠN TÙNG M-TP - MUỘN RỒI MÀ SAO CÒN.mp3" />
+    <Content Include="Assets\Audio\Vpop\Yêu Thầm - Hoàng Yến Chibi x Tlinh x TDK x Lyly.mp3" />
+    <Content Include="Assets\Icons\usuk.png" />
+    <Content Include="Assets\Icons\kpop.png" />
+    <Content Include="Assets\Icons\vpop.png" />
+    <Content Include="Assets\Images\Kpop\IU _ Celebrity.png" />
+    <Content Include="Assets\Images\Kpop\IU_ eight ft SUGA%28BTS%29.png" />
+    <Content Include="Assets\Images\Kpop\Future_Red Velvet.png" />
+    <Content Include="Assets\Images\Kpop\My Love_DAVICHI.png" />
+    <Content Include="Assets\Images\US_UK\Ariana Grande, Justin Bieber - Stuck with U.png" />
+    <Content Include="Assets\Images\US_UK\Avril Lavigne - Head Above Water.png" />
+    <Content Include="Assets\Images\US_UK\Charlie Puth - Cheating on You.png" />
+    <Content Include="Assets\Images\US_UK\Justin Bieber - Ghost.png" />
+    <Content Include="Assets\Images\US_UK\MADE IN THE USA - DEMI LOVATO.png" />
+    <Content Include="Assets\Images\US_UK\The Kid LAROI, Justin Bieber - STAY.png" />
+    <Content Include="Assets\Images\Vpop\Anh Là Ai - Phương Ly.png" />
+    <Content Include="Assets\Images\Vpop\KHÔNG SAO MÀ EM ĐÂY RỒI - SUNI HẠ LINH ft Lou Hoàng.png" />
+    <Content Include="Assets\Images\Vpop\Những Kẻ Mộng Mơ.png" />
+    <Content Include="Assets\Images\Vpop\SƠN TÙNG M-TP - MUỘN RỒI MÀ SAO CÒN.png" />
+    <Content Include="Assets\Images\Vpop\Như Vậy Mãi Thôi - Noo Phước Thịnh.png" />
+    <Content Include="Assets\Images\Vpop\Yêu Thầm - Hoàng Yến Chibi x Tlinh x TDK x Lyly.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -154,6 +192,7 @@
       <Version>6.2.12</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
